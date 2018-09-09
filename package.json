@@ -1,0 +1,24 @@
+{
+  "name": "reduximpl",
+  "version": "1.0.0",
+  "description": "Trying implement redux from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhu0/ReduxImpl.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-impl",
+    "react-redux"
+  ],
+  "author": "Madhusudhan Reddy K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhu0/ReduxImpl/issues"
+  },
+  "homepage": "https://github.com/Madhu0/ReduxImpl#readme"
+}
