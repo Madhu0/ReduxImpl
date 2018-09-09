@@ -4,7 +4,8 @@
   "description": "Trying implement redux from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "babel src/ test/ --debug=true --out-dir build/ --copy-files",
+    "build": "node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/Madhu0/ReduxImpl/issues"
   },
-  "homepage": "https://github.com/Madhu0/ReduxImpl#readme"
+  "homepage": "https://github.com/Madhu0/ReduxImpl#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
 }
