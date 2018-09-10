@@ -4,7 +4,7 @@
   "description": "Trying implement redux from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "babel src/ test/ --debug=true --out-dir build/ --copy-files",
+    "test": "npm run build && node build/main.js",
     "build": "node_modules/.bin/webpack"
   },
   "repository": {
@@ -29,5 +29,8 @@
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
   }
 }
